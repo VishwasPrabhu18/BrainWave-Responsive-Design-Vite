@@ -1,8 +1,12 @@
+import Header from './components/Header';
+
 const App = () => {
   return (
-    <div>
-      <h1 className="text-black font-bold text-2xl">App</h1>
-    </div>
+    <>
+      <div className='pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden'>
+        <Header />
+      </div>
+    </>
   )
 }
 
