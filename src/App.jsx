@@ -1,6 +1,8 @@
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <h1 className="text-black font-bold text-2xl">App</h1>
+    </div>
   )
 }
 
